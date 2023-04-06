@@ -30,6 +30,6 @@ vue=soq.sum()/(sal.size-1)
 vue2=sal.var(ddof=1)
 
 print("1. Среднее арифметическое ",sa,sa2)
-print("2. Среднее квадратичное отклонение ",std,std_)
+print("2. Среднее квадратичное отклонение ",round(std,4),round(std_,4))
 print("3. дисперсия смещенная оценка ",var,var2)
-print("4. дисперсия несмещенная оценка ",vue,vue2)
+print("4. дисперсия несмещенная оценка ",round(vue,4),round(vue2,4))
